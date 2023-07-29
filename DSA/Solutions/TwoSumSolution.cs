@@ -9,7 +9,7 @@ namespace DSA.Solutions
 {
     public class TwoSumSolution
     {
-        public int[] TwoSum(int[] nums, int target)
+        public int[] TwoSumForLoopApproach(int[] nums, int target)
         {
             for (int o = 0; o < nums.Length; o++)
             {
@@ -24,7 +24,7 @@ namespace DSA.Solutions
             return new int[0];
         }
 
-        public int[] TwoSumSortApproach(int[] nums, int target)
+        public int[] TwoSumHashTableApproach(int[] nums, int target)
         {
             Dictionary<int, int> map = new Dictionary<int, int>();
 
